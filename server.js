@@ -8,7 +8,7 @@ import Game from './app/models/game';
 import { getGames, getGame, postGame, deleteGame } from './app/routes/game';
 
 const app = express(); //import express libary
-const port = process.env.PORT || 3000; //running on port localhost:4000
+const port = process.env.PORT || 3000; //running on port localhost:3000
 
 //Set up mongoose connection
 mongoose.connect('mongodb://thibaptistella:93032660mi@ds123146.mlab.com:23146/retro-games-library');
